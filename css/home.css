@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-wrapper-grid {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+
+.navbar-section1 {
+    background-color: #41334e;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-section1 p {
+    color: #fff;
+}
+
+.navbar-section2 {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-navbar-item1 ul,
+.top-navbar-item2 ul,
+.top-navbar-logo img {
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    list-style: none;
+}
